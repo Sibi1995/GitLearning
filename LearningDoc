@@ -1,0 +1,20 @@
+##Git Commands
+
+    git init  -> initialize the repository
+    git clone URL -> download the repository
+    git branch -> show the current branch
+    git branch -a -> show all the branches
+        *sibi, manoj
+    git checkout manoj -> move to another exist branch
+    git checkout commitId  -> move to specific commit
+    git checkout -b ashok -> create a new branch and move to that branch. from where we moved that branch codes will come to the new branch
+    git branch -D ashok -> delete specific branch
+    git add . -> add all changed files to stage area
+    git add *.java -> add specific files to stage area
+    git pull -> take a pull from current branch
+    git pull origin manoj -> take a pull from manoj branch
+    git commit -m "msg" -> add a commit message for added files in stage area
+    git push -> changes send from stage area to repository
+   
+    *sibi
+        git merge manoj -> merge manoj branch code to sibi branch
